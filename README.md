@@ -72,7 +72,7 @@ The system uses model confidence as a proxy for handwriting clarity and consiste
 
 ## My Contribution
 
-- Worked on the handwriting analysis pipeline in Python
+- Developed the handwriting analysis pipeline in Python
 - Implemented character segmentation and preprocessing using OpenCV
 - Integrated model inference and confidence-based scoring
 - Contributed to connecting the ML pipeline with the web application
