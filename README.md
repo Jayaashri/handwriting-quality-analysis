@@ -61,14 +61,13 @@ The system uses model confidence as a proxy for handwriting clarity and consiste
 ---
 
 ## Project Structure
-assets/ # UI assets, styles, worksheets
-views/ # EJS templates
-notebooks/ # Model training and experimentation
-upload_images/ # Temporary upload storage
-
-index.js # Express server
-script01.py # Handwriting analysis pipeline
-htr.h5 # Trained model
+├── assets/ # UI assets, styles, worksheets 
+├── views/ # EJS templates (frontend)
+├── notebooks/ # Model training & experimentation 
+├── upload_images/ # Temporary image storage 
+├── index.js # Express server (API + routing) 
+├── script01.py # Handwriting analysis pipeline 
+├── htr.h5 # Trained deep learning model
 
 ---
 
